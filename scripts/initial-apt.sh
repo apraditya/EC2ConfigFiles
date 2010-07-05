@@ -1,7 +1,6 @@
 #!/bin/bash
 
 sudo aptitude update
-sudo aptitude -y dist-upgrade
 sudo aptitude install -y autoremove
 sudo aptitude install -y curl libcurl4-openssl-dev
 sudo aptitude install -y zlib1g-dev libssl-dev libexpat1-dev
